@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+
+a  {
+  border-radius: 8px;
+  cursor: pointer;
+  padding:8px 16px;
+
+}
+
+section {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 16px;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 14px;
+}
+
+.container {
+  border: 8px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
